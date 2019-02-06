@@ -5,7 +5,7 @@ from tensorflow.keras import models
 import numpy as np
 
 width = 75
-DATADIR = "C:/python/keras/PetImages"
+DATADIR = "where test data is"
 CATEGORIES = ["Dog","Cat"]
 model = models.load_model("dogCatDisq.model")
 while(True):
